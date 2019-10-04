@@ -35,7 +35,34 @@ public class PieceOfCake {
 		}
 		int t = inputStream.nextInt();
 		inputStream.nextLine();
-		for(int i = 0 ; i<t ; i++)
+		 while(t-->0)
+		    {
+		        int a[]=new int[26];
+		        int f=0;
+		        String s=inputStream.next();
+		        if(s.length()%2!=0)
+		        System.out.println("NO");
+		        else
+		        {
+		        for(int i=0;i<s.length();i++)
+		        {
+		            a[s.charAt(i)-'a']++;
+		        }
+		        for(int i=0;i<26;i++)
+		        {
+		            if(a[i]==s.length()/2)
+		            {
+		                f=1;
+		                break;
+		            }
+		        }
+		        if(f==0)
+		        System.out.println("NO");
+		        else
+		        System.out.println("YES");
+		        }
+		    }
+		/*for(int i = 0 ; i<t ; i++)
 		{
 			String x = inputStream.nextLine();
 			
@@ -101,7 +128,7 @@ public class PieceOfCake {
 			
 			System.out.println((max==0 ? "Yes" : "No"));
 		
-		}
+		}*/
 		
 			
 	}
