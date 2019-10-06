@@ -1,3 +1,6 @@
+Please see the raw file for this question
+
+
 Chef is instructor of the famous course "Introduction to Algorithms" in a famous univerisity. There are n students in his class. There is not enough space in the class room, so students sit in a long hallway in a linear fashion.
 
 One day Chef was late to class. As a result, some of the students have formed pairs and are talking to each other, while the others are busy studying. This information is given to you by a string s of length n, consisting of characters '*', <' and '>', where '*' denotes that the student is studying, '>' denotes that the corresponding student is talking to the student to the right, and '<' denotes that the corresponding student is talking to the student to the left.
