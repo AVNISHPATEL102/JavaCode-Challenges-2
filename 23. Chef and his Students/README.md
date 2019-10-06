@@ -60,7 +60,7 @@ Output:
 
 2
 
-Explanation
+ExplanationS
 
 Example case 1. The updated configuration will be <>. No students are talking to each other, so no one will be punished.
 
