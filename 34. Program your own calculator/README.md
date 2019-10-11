@@ -25,6 +25,8 @@ C can only be one of these 4 operators {" + ", " - ", " * ", " / "}
 
 Sample Input:
 
+1 //no of test cases
+
 8
 
 2
@@ -33,9 +35,12 @@ Sample Input:
 
 Sample Output:
 
+
 4.0
 
 Sample Input:
+
+1 //no of test cases
 
 5
 
